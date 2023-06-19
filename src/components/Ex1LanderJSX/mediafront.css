@@ -1,0 +1,67 @@
+.lander_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 64px 0px;
+}
+.lander_img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.lander_img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 3px 5px 3px lightgrey;
+}
+.lander_img h1 {
+  color: #009ee1;
+  font-size: 50px;
+  text-shadow: 3px 3px 2px lightgrey;
+}
+.lander_img p {
+  color: #2ad1d1;
+  font-size: 25px;
+  text-shadow: 3px 3px 3px lightgrey;
+}
+.lander_head {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 5px 3px darkgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.lander_head h1 {
+  color: #009ee1;
+}
+.lander_head p {
+  color: #2ad1d1;
+  font-size: 20px;
+}
+.lander_head button {
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  background: linear-gradient(93.84deg, #2ad1d1 -9.48%, #009ee1 111.63%);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 780px) {
+  .lander_main {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .lander_img h1 {
+    font-size: 35px;
+  }
+  .lander_img p {
+    font-size: 20px;
+  }
+}

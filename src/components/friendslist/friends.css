@@ -1,0 +1,89 @@
+.cards_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.cards_page > button {
+  width: 20%;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 15px;
+  background: linear-gradient(93.84deg, #2ad1d1 -9.48%, #009ee1 111.63%);
+}
+.friends_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.friend_profile {
+  border: 5px solid lightgrey;
+  border-radius: 100%;
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  top: 70px;
+}
+.friend_proinfo {
+  background-color: white;
+  width: 350px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.friend_proinfo #profession {
+  color: #009ee1;
+}
+.friend_proinfo #description {
+  text-align: center;
+  color: #787878;
+}
+.friend_proinfo > button {
+  color: #009ee1;
+  background: none;
+  border: 1px solid #00b2ff;
+  padding: 5px 20px;
+}
+.friend_name {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+  align-items: center;
+}
+.post_chat {
+  display: flex;
+  gap: 60px;
+}
+.post_chat p span {
+  color: #272727;
+  font-weight: 800;
+}
+.post_chat p {
+  color: #848484;
+  font-size: 12px;
+}
+.post_chat button {
+  color: #009ee1;
+  background-color: #d0ffff;
+  padding: 3px 20px;
+  border: none;
+  font-size: 12px;
+}
+.friends_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.friends_heading {
+  display: flex;
+  gap: 20px;
+  padding: 32px;
+}

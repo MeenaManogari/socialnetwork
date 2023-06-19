@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy-Medium.tff";
+}
+@font-face {
+  font-family: "Gilroy-Medium.tff";
+  src: url(./assets/fonts/Gilroy-Medium.ttf);
+}
+.home_page {
+  display: flex;
+  gap: 30px;
+  padding: 16px;
+}
+.profile_news {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

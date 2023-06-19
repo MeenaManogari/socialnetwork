@@ -1,0 +1,10 @@
+.home_page {
+  display: flex;
+  gap: 30px;
+  padding: 16px;
+}
+.profile_news {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

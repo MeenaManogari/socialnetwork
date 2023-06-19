@@ -1,0 +1,93 @@
+.feeds_main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.feeds_main .feed_heading {
+  display: flex;
+  gap: 20px;
+}
+.feed_head {
+  background-color: white;
+  width: 100%;
+}
+.feed_head > img {
+  width: 100%;
+}
+.feed_profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.feed_profile button {
+  background-color: #d0ffff;
+  color: #009ee1;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profile_info {
+  display: flex;
+  gap: 5px;
+}
+.pro_name h4 {
+  color: #002e32;
+}
+.pro_name h4 span {
+  color: #848484;
+}
+.pro_name p {
+  color: #787878;
+}
+.feed_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.feed_details h4 {
+  color: #293341;
+}
+.feed_details p {
+  color: #787878;
+  font-size: 12px;
+}
+.time_views p {
+  color: #787878;
+  font-size: 11px;
+}
+.comment_contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+}
+.comment_contents button {
+  border: none;
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.likes_tweets {
+  display: flex;
+  gap: 20px;
+}
+.likes_tweets button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+@media (max-width: 750px) {
+  .feeds_main {
+    width: 100%;
+  }
+}
+@media (max-width: 470px) {
+  .feed_info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
